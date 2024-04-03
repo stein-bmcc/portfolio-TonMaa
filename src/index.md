@@ -7,17 +7,32 @@ tags:
   - welcome
   - info
 ---
-<h2 class="mainHeading">Main Content</h2>
-<section class="content">
-  <p>Add your own content. You can delete all of the content on this page after the front-matter.</p>
-</section>
+<div class="header-text">
+    <p>Web Designer</p>
+    <h1>Hi, I'm <span>Randy</span><br></h1>
+</div>
 
-## Other instructions
+ <h1 class="sub-title">My Work</h1>
 
-You can write in either markdown OR HTML and can even mix them both together on the same page
+  <section class="grid-container">
+  <div class="grid-item">
+      <img src="/" alt="Image 1">
+      <h2>The Peaky Blinders Poster</h2>
+      <a href="poster.html"> view project</a>
+      <p></p>
+  </div>
 
-Later you will also see that you can put nunjucks code in these files too.
+  <div class="grid-item">
+      <img src="/" alt="Image 2">
+      <h2>Ingredient Recipe</h2>
+      <a href="ingredient.html">view project</a>
+      <p></p>
+  </div>
 
-You will create a .md file here for each .html file you would have made in a normal siet.
-
-Don't forget the front matter!
+  <div class="grid-item">
+      <img src="/" alt="Image 3">
+      <h2>Store</h2>
+      <a href="store.html">view project</a>
+      <p></p>
+  </div>
+  </section>

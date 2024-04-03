@@ -1,5 +1,5 @@
 ---
-siteTitle: Your Site Title Here
+siteTitle: Portfolio
 
 ---
 <!doctype html>
@@ -22,21 +22,34 @@ siteTitle: Your Site Title Here
     <link rel="apple-touch-icon" href="icon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/styles.css">
     </head>
   <body class="{{pageClass}}">
-    <header class="site-header">
-      {% include "navigation.njk" %}<!-- Add your nav element to the _includes/navigation.njk file -->
-    </header>
-  
+   
+   <header>  
+   <nav class="site-nav">
+    <div class="site-title">
+      <a href="/"> Randy</a>
+    </div>
+    <a href="#" class="hamburger" id="nav-toggle"><span></span></a>
+   
+    <div class="links" id="nav-links">
+      <a href="/" class="underline"> Home </a>
+      <a href="/about">About</a>
+      
+    </div>
+  </nav>
+  </header>
     <main class="main page-content">
       {{ content | safe }}
     </main>
 
-    <footer class="site-footer">
-      <!-- Add your footer content here -->
-    </footer>
-  
+     <footer>
+        <p> Randy Otanez</p>
+        
+        <p><a href="Raotanez21@gmail.com">Raotanez21@gmail.cpm </a></p>
+      </footer>
     <!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!--    Load Local version if CDN is not working-->
