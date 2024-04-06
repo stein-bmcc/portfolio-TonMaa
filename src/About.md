@@ -7,7 +7,7 @@ tags:
   - welcome
   - info
 ---
-
+ <body class="about">
 <main>
 <div id="about">
 <div class="container">
@@ -28,3 +28,4 @@ tags:
 </div>
 
 </main>
+</body>
