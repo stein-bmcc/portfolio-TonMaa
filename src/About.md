@@ -1,4 +1,12 @@
-
+---
+title: about Page
+layout: base
+pageClass: about
+tags:
+  - about
+  - welcome
+  - info
+---
 
 <main>
 <div id="about">
