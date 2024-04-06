@@ -1,8 +1,8 @@
-title: Home Page
+title: poster page
 layout: base
-pageClass: home
+pageClass: poster
 tags:
-  - home
-  - welcome
-  - info
+- poster
+- welcome
+- info
 ---
