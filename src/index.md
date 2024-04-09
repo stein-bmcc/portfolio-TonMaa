@@ -18,21 +18,21 @@ tags:
   <div class="grid-item">
       <img src="/" alt="Image 1">
       <h2>The Peaky Blinders Poster</h2>
-      <a href="poster.html"> view project</a>
+      <a href="/poster.md"> view project</a>
       <p></p>
   </div>
 
   <div class="grid-item">
       <img src="/" alt="Image 2">
       <h2>Ingredient Recipe</h2>
-      <a href="ingredient.html">view project</a>
+      <a href="/ingredient.md">view project</a>
       <p></p>
   </div>
 
   <div class="grid-item">
       <img src="/" alt="Image 3">
       <h2>Store</h2>
-      <a href="store.html">view project</a>
+      <a href="/store.md">view project</a>
       <p></p>
   </div>
   </section>
