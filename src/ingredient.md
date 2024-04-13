@@ -1,3 +1,4 @@
+---
 title: ingredient page
 layout: base
 pageClass: ingredient

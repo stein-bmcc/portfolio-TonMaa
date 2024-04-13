@@ -1,3 +1,4 @@
+---
 title: poster page
 layout: base
 pageClass: poster
@@ -9,7 +10,7 @@ tags:
 
 <div id="wrapper">
 <header>
-    <h1><img src="Image/peaky-blinder-logo.png" alt="Peaky_Blinders_logo"></h1>
+    <h1><img src="/images/Peaky_Blinders_logo.png" alt="Peaky_Blinders_logo"></h1>
     <p class="lead">Peaky Blinders is one of the most famous gangster families in modern television. Based on true events, the audience is transported to an industrial Birmingham that will turn (more than once) into a war zone, and the Peaky Blinders are always involved when the subject is violence and trouble.</p>
     <a href="#" class="play button">Watch</a>
 </header>
