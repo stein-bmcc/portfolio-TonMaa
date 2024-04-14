@@ -10,42 +10,60 @@
   }
   
   body {
-     background: #080808;
+    background: #080808;
     color: #fff;
-    margin: 0; 
-  }
-  
-  
-  
-  
-  /* General Styling */
-  .header-text {
+    margin: 0;
+}
+
+/* General Styling */
+.header-text {
     margin-top: 20%;
     font-size: 30px;
-  }
-  
-  .header-text h1 {
+}
+
+.header-text h1 {
     font-size: 60px;
     margin-top: 20px;
-  }
-  
-  .header-text h1 span {
+}
+
+.header-text h1 span {
     color: #ff004f;
-  }
-  
-  .grid-container {
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
-  }
-  
-  .grid-item {
-    
+}
+
+.grid-item {
     padding: 20px;
     border: 1px solid #ccc;
-  }
-  
+}
+
+/* Custom article card styles */
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item h2 {
+    font-size: 1.9rem;
+    margin: 0 0 18px 0;
+    color: #fff;
+}
+
+.grid-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ff004f;
+    transition: color 0.3s ease-out;
+}
+
+.grid-item a:hover {
+    color: #ff6699;
+}
 
 
   /* styles about page */
