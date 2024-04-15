@@ -108,7 +108,7 @@
   .poster header {
     padding: 3em;
     color: #fff;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("Image/Peaky-Blinders.jpg") no-repeat top right/contain, #000;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("/image/peaky-blinder") no-repeat top right/contain, #000;
   }
   
   .poster header p {
