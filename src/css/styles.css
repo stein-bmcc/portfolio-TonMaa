@@ -105,12 +105,27 @@
     background-color: #fff;
   }
   
-  .poster header {
+  .poster header.peaky {
+    text-align: left;
     padding: 3em;
     color: #fff;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("/image/peaky-blinder") no-repeat top right/contain, #000;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(35,26,18,1) 35%, rgba(65,49,34,0) 60%), url("/images/Peaky-Blinders.jpg") no-repeat top right/contain, #000;
   }
+  .blinder{
+    color:#000;
+    padding: 10px;
+  }
+.blinder p{
+  margin-bottom: 1rem;
   
+
+}
+
+
+  
+  .peaky img{
+    text-align: left;
+  }
   .poster header p {
     width: 30%;
   }
